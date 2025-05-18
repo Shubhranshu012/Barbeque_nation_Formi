@@ -24,4 +24,19 @@ This project integrates:
 ### 1. Retell AI
 - Create a conversational agent with state machines and intents
 - Use an `External Function` call inside Retell to trigger Make.com's webhook
--
+
+
+### 2.Use Make.com
+- Set up the project (Used For Automation)
+- Set the structure and The flow of data
+- Configure All the Path The input to be recived and the Output
+
+
+### 3.Set Up ChatDash
+- used to give the used access to a Frontend to interact with the agent
+- create a preject 
+- link the agen creted by the Retell Ai bu using its agent id and the Api Key 
+- the ChatDash Will Give you The Enbeded Code with then can be uaed in Html or React or any thing For Publishing the Project in the Web
+
+
+
