@@ -1,0 +1,92 @@
+{
+    "city": "New Delhi",
+    "outlet": "Barbeque Nation",
+    "address": "Plot No. 11, Local Shopping Center, Pyramid Building, Pocket 7, Sector C, Vasant Kunj, New Delhi, Delhi 110070",
+    "Weekly_Instruction": "Take till last entry",
+    "timings": {
+        "Monday": {
+            "Lunch": {
+                "open": "12.00 pm",
+                "last_entry": "04.00 pm",
+                "close": "05.00 pm"
+            },
+            "Dinner": {
+                "open": "06.00 pm",
+                "last_entry": "11.00 pm",
+                "close": "12.00 am"
+            }
+        },
+        "Tuesday": {
+            "Lunch": {
+                "open": "12.00 pm",
+                "last_entry": "04.00 pm",
+                "close": "05.00 pm"
+            },
+            "Dinner": {
+                "open": "06.00 pm",
+                "last_entry": "11.00 pm",
+                "close": "12.00 am"
+            }
+        },
+        "Wednesday": {
+            "Lunch": {
+                "open": "12.00 pm",
+                "last_entry": "04.00 pm",
+                "close": "05.00 pm"
+            },
+            "Dinner": {
+                "open": "06.00 pm",
+                "last_entry": "11.00 pm",
+                "close": "12.00 am"
+            }
+        },
+        "Thursday": {
+            "Lunch": {
+                "open": "12.00 pm",
+                "last_entry": "04.00 pm",
+                "close": "05.00 pm"
+            },
+            "Dinner": {
+                "open": "06.00 pm",
+                "last_entry": "11.00 pm",
+                "close": "12.00 am"
+            }
+        },
+        "Friday": {
+            "Lunch": {
+                "open": "12.00 pm",
+                "last_entry": "04.00 pm",
+                "close": "05.00 pm"
+            },
+            "Dinner": {
+                "open": "06.00 pm",
+                "last_entry": "11.00 pm",
+                "close": "12.00 am"
+            }
+        },
+        "Saturday": {
+            "Lunch": {
+                "open": "12.00 pm",
+                "last_entry": "04.00 pm",
+                "close": "05.00 pm"
+            },
+            "Dinner": {
+                "open": "06.00 pm",
+                "last_entry": "11.00 pm",
+                "close": "12.00 am"
+            }
+        },
+        "Sunday": {
+            "Lunch": {
+                "open": "12.00 pm",
+                "last_entry": "04.00 pm",
+                "close": "05.00 pm"
+            },
+            "Dinner": {
+                "open": "06.00 pm",
+                "last_entry": "11.00 pm",
+                "close": "12.00 am"
+            }
+        }
+    }
+}

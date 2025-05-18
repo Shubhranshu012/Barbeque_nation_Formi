@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Barbeque Nation Services</title>
+</head>
+<body>
+  <div id="cd-widget"></div>
+<script>
+  (function() {
+      if (window.chatWidgetScriptLoaded) return;
+      window.ChatWidgetConfig = {
+        projectId: "6829960b079fdb17d5702d17", 
+      };
+
+      var chatWidgetScript = document.createElement("script");
+      chatWidgetScript.type = 'text/javascript';
+      chatWidgetScript.src = "https://storage.googleapis.com/cdwidget/dist/assets/js/main.js";
+      document.body.appendChild(chatWidgetScript);
+
+      window.chatWidgetScriptLoaded = true;
+  })();
+</script>
+
+</body>
+</html>

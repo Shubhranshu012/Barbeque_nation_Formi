@@ -1,0 +1,92 @@
+{
+    "city": "Bangalore",
+    "outlet": "Barbeque Nation",
+    "address": "67, 3rd Floor, 6th B Main, Phase III, J P Nagar, Bengaluru, Karnataka 560078, India",
+    "Weekly_Instruction": "Take till last entry",
+    "timings": {
+        "Monday": {
+            "Lunch": {
+                "open": "12.00 pm",
+                "last_entry": "04.00 pm",
+                "close": "05.00 pm"
+            },
+            "Dinner": {
+                "open": "06.30 pm",
+                "last_entry": "11.00 pm",
+                "close": "11.55 pm"
+            }
+        },
+        "Tuesday": {
+            "Lunch": {
+                "open": "12.00 pm",
+                "last_entry": "04.00 pm",
+                "close": "05.00 pm"
+            },
+            "Dinner": {
+                "open": "06.30 pm",
+                "last_entry": "11.00 pm",
+                "close": "11.55 pm"
+            }
+        },
+        "Wednesday": {
+            "Lunch": {
+                "open": "12.00 pm",
+                "last_entry": "04.00 pm",
+                "close": "05.00 pm"
+            },
+            "Dinner": {
+                "open": "06.30 pm",
+                "last_entry": "11.00 pm",
+                "close": "11.55 pm"
+            }
+        },
+        "Thursday": {
+            "Lunch": {
+                "open": "12.00 pm",
+                "last_entry": "04.00 pm",
+                "close": "05.00 pm"
+            },
+            "Dinner": {
+                "open": "06.30 pm",
+                "last_entry": "11.00 pm",
+                "close": "11.55 pm"
+            }
+        },
+        "Friday": {
+            "Lunch": {
+                "open": "12.00 pm",
+                "last_entry": "04.00 pm",
+                "close": "05.00 pm"
+            },
+            "Dinner": {
+                "open": "06.30 pm",
+                "last_entry": "11.00 pm",
+                "close": "11.55 pm"
+            }
+        },
+        "Saturday": {
+            "Lunch": {
+                "open": "12.00 pm",
+                "last_entry": "04.00 pm",
+                "close": "05.00 pm"
+            },
+            "Dinner": {
+                "open": "06.30 pm",
+                "last_entry": "11.00 pm",
+                "close": "11.55 pm"
+            }
+        },
+        "Sunday": {
+            "Lunch": {
+                "open": "12.00 pm",
+                "last_entry": "04.00 pm",
+                "close": "05.00 pm"
+            },
+            "Dinner": {
+                "open": "06.30 pm",
+                "last_entry": "11.00 pm",
+                "close": "11.55 pm"
+            }
+        }
+    }
+}

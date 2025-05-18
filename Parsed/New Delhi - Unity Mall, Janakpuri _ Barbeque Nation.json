@@ -1,0 +1,92 @@
+{
+    "city": "New Delhi",
+    "outlet": "Barbeque Nation New Delhi - Unity Mall, Janakpuri",
+    "address": "Unity One, 2nd Floor, Narang Colony, Chander Nagar, Janakpuri, New Delhi, Delhi 110058",
+    "Weekly_Instruction": "Take till last entry",
+    "timings": {
+        "Monday": {
+            "lunch": {
+                "open": "12.00 pm",
+                "last_entry": "04.00 pm",
+                "close": "05.00 pm"
+            },
+            "dinner": {
+                "open": "06.00 pm",
+                "last_entry": "11.00 pm",
+                "close": "12.00 am"
+            }
+        },
+        "Tuesday": {
+            "lunch": {
+                "open": "12.00 pm",
+                "last_entry": "04.00 pm",
+                "close": "05.00 pm"
+            },
+            "dinner": {
+                "open": "06.00 pm",
+                "last_entry": "11.00 pm",
+                "close": "12.00 am"
+            }
+        },
+        "Wednesday": {
+            "lunch": {
+                "open": "12.00 pm",
+                "last_entry": "04.00 pm",
+                "close": "05.00 pm"
+            },
+            "dinner": {
+                "open": "06.00 pm",
+                "last_entry": "11.00 pm",
+                "close": "12.00 am"
+            }
+        },
+        "Thursday": {
+            "lunch": {
+                "open": "12.00 pm",
+                "last_entry": "04.00 pm",
+                "close": "05.00 pm"
+            },
+            "dinner": {
+                "open": "06.00 pm",
+                "last_entry": "11.00 pm",
+                "close": "12.00 am"
+            }
+        },
+        "Friday": {
+            "lunch": {
+                "open": "12.00 pm",
+                "last_entry": "04.00 pm",
+                "close": "05.00 pm"
+            },
+            "dinner": {
+                "open": "06.00 pm",
+                "last_entry": "11.00 pm",
+                "close": "12.00 am"
+            }
+        },
+        "Saturday": {
+            "lunch": {
+                "open": "12.00 pm",
+                "last_entry": "04.00 pm",
+                "close": "05.00 pm"
+            },
+            "dinner": {
+                "open": "06.00 pm",
+                "last_entry": "11.00 pm",
+                "close": "12.00 am"
+            }
+        },
+        "Sunday": {
+            "lunch": {
+                "open": "12.00 pm",
+                "last_entry": "04.00 pm",
+                "close": "05.00 pm"
+            },
+            "dinner": {
+                "open": "06.00 pm",
+                "last_entry": "11.00 pm",
+                "close": "12.00 am"
+            }
+        }
+    }
+}

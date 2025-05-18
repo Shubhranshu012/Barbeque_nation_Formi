@@ -1,0 +1,143 @@
+{
+    "city": "New Delhi",
+    "outlet": "Barbeque Nation",
+    "address": "Munshilal bulding 2nd Floor N-19, Block N, Connaught Place, New Delhi, Delhi 110001, India",
+    "Weekly_Instructions": {
+        "Monday": {
+            "2+1": {
+                "Lunch Slot-1": "Flexible",
+                "Lunch Slot-2": "Take till last entry.",
+                "Dinner Slot-1": "Take till 07.00 pm",
+                "Dinner Slot-2": "Take till last entry."
+            },
+            "3 & Above": {
+                "Lunch Slot-1": "Flexible",
+                "Lunch Slot-2": "Take till last entry.",
+                "Dinner Slot-1": "Take till 07.00 pm",
+                "Dinner Slot-2": "Take till last entry."
+            }
+        },
+        "Tuesday": {
+            "2+1": {
+                "Lunch Slot-1": "Flexible",
+                "Lunch Slot-2": "Take till last entry.",
+                "Dinner Slot-1": "Take till 07.00 pm",
+                "Dinner Slot-2": "Take till last entry."
+            },
+            "3 & Above": {
+                "Lunch Slot-1": "Flexible",
+                "Lunch Slot-2": "Take till last entry.",
+                "Dinner Slot-1": "Take till 07.00 pm",
+                "Dinner Slot-2": "Take till last entry."
+            }
+        },
+        "Wednesday": {
+            "2+1": {
+                "Lunch Slot-1": "Flexible",
+                "Lunch Slot-2": "Take till last entry.",
+                "Dinner Slot-1": "Take till 07.00 pm",
+                "Dinner Slot-2": "Take till last entry."
+            },
+            "3 & Above": {
+                "Lunch Slot-1": "Flexible",
+                "Lunch Slot-2": "Take till last entry.",
+                "Dinner Slot-1": "Take till 07.00 pm",
+                "Dinner Slot-2": "Take till last entry."
+            }
+        },
+        "Thursday": {
+            "2+1": {
+                "Lunch Slot-1": "Flexible",
+                "Lunch Slot-2": "Take till last entry.",
+                "Dinner Slot-1": "Take till 07.00 pm",
+                "Dinner Slot-2": "Take till last entry."
+            },
+            "3 & Above": {
+                "Lunch Slot-1": "Flexible",
+                "Lunch Slot-2": "Take till last entry.",
+                "Dinner Slot-1": "Take till 07.00 pm",
+                "Dinner Slot-2": "Take till last entry."
+            }
+        },
+        "Friday": {
+            "2+1": {
+                "Lunch Slot-1": "Take till 12.30 pm",
+                "Lunch Slot-2": "Take till last entry.",
+                "Dinner Slot-1": "Take till 07.00 pm",
+                "Dinner Slot-2": "Take till last entry."
+            },
+            "3 & Above": {
+                "Lunch Slot-1": "Take till 12.30 pm",
+                "Lunch Slot-2": "Take till last entry.",
+                "Dinner Slot-1": "Take till 07.00 pm",
+                "Dinner Slot-2": "Take till last entry."
+            }
+        },
+        "Saturday": {
+            "2+1": {
+                "Lunch Slot-1": "Take till 12.30 pm",
+                "Lunch Slot-2": "Take till last entry.",
+                "Dinner Slot-1": "Take till 07.00 pm",
+                "Dinner Slot-2": "Take till last entry."
+            },
+            "3 & Above": {
+                "Lunch Slot-1": "Take till 12.30 pm",
+                "Lunch Slot-2": "Take till last entry.",
+                "Dinner Slot-1": "Take till 07.00 pm",
+                "Dinner Slot-2": "Take till last entry."
+            }
+        },
+        "Sunday": {
+            "2+1": {
+                "Lunch Slot-1": "Take till 12.30 pm",
+                "Lunch Slot-2": "Take till last entry.",
+                "Dinner Slot-1": "Take till 07.00 pm",
+                "Dinner Slot-2": "Take till last entry."
+            },
+            "3 & Above": {
+                "Lunch Slot-1": "Take till 12.30 pm",
+                "Lunch Slot-2": "Take till last entry.",
+                "Dinner Slot-1": "Take till 07.00 pm",
+                "Dinner Slot-2": "Take till last entry."
+            }
+        }
+    },
+    "timings": {
+        "Monday": {
+            "Lunch": {
+                "open": "12.00 pm",
+                "last_entry": "04.00 pm",
+                "close": "05.00 pm"
+            },
+            "Dinner": {
+                "open": "06.30 pm",
+                "last_entry": "11.00 pm",
+                "close": "12.00 am"
+            }
+        },
+        "Saturday": {
+            "Lunch": {
+                "open": "12.00 pm",
+                "last_entry": "04.00 pm",
+                "close": "05.00 pm"
+            },
+            "Dinner": {
+                "open": "06.30 pm",
+                "last_entry": "11.00 pm",
+                "close": "12.00 am"
+            }
+        },
+        "Sunday": {
+            "Lunch": {
+                "open": "12.00 pm",
+                "last_entry": "04.00 pm",
+                "close": "05.00 pm"
+            },
+            "Dinner": {
+                "open": "06.30 pm",
+                "last_entry": "11.00 pm",
+                "close": "12.00 am"
+            }
+        }
+    }
+}

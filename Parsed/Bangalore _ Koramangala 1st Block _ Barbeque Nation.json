@@ -1,0 +1,100 @@
+{
+    "city": "Bangalore",
+    "outlet": "Barbeque Nation",
+    "address": "1st Cross Rd, 1st Block Koramangala, Koramangala, Bengaluru, Karnataka 560034, India",
+    "Weekly_Instruction": {
+        "Monday": "Flexible or Take till last entry",
+        "Tuesday": "Flexible or Take till last entry",
+        "Wednesday": "Flexible or Take till last entry",
+        "Thursday": "Flexible or Take till last entry",
+        "Friday": "Flexible or Take till last entry",
+        "Saturday": "Flexible or Take till last entry",
+        "Sunday": "Flexible or Take till last entry"
+    },
+    "timings": {
+        "Monday": {
+            "Lunch": {
+                "open": "12.00 pm",
+                "last_entry": "04.00 pm",
+                "close": "05.00 pm"
+            },
+            "Dinner": {
+                "open": "06.30 pm",
+                "last_entry": "10.30 pm",
+                "close": "11.30 pm"
+            }
+        },
+        "Tuesday": {
+            "Lunch": {
+                "open": "12.00 pm",
+                "last_entry": "04.00 pm",
+                "close": "05.00 pm"
+            },
+            "Dinner": {
+                "open": "06.30 pm",
+                "last_entry": "10.30 pm",
+                "close": "11.30 pm"
+            }
+        },
+        "Wednesday": {
+            "Lunch": {
+                "open": "12.00 pm",
+                "last_entry": "04.00 pm",
+                "close": "05.00 pm"
+            },
+            "Dinner": {
+                "open": "06.30 pm",
+                "last_entry": "10.30 pm",
+                "close": "11.30 pm"
+            }
+        },
+        "Thursday": {
+            "Lunch": {
+                "open": "12.00 pm",
+                "last_entry": "04.00 pm",
+                "close": "05.00 pm"
+            },
+            "Dinner": {
+                "open": "06.30 pm",
+                "last_entry": "10.30 pm",
+                "close": "11.30 pm"
+            }
+        },
+        "Friday": {
+            "Lunch": {
+                "open": "12.00 pm",
+                "last_entry": "04.00 pm",
+                "close": "05.00 pm"
+            },
+            "Dinner": {
+                "open": "06.30 pm",
+                "last_entry": "10.30 pm",
+                "close": "11.30 pm"
+            }
+        },
+        "Saturday": {
+            "Lunch": {
+                "open": "12.00 pm",
+                "last_entry": "04.00 pm",
+                "close": "05.00 pm"
+            },
+            "Dinner": {
+                "open": "06.30 pm",
+                "last_entry": "11.00 pm",
+                "close": "11.55 pm"
+            }
+        },
+        "Sunday": {
+            "Lunch": {
+                "open": "12.00 pm",
+                "last_entry": "04.00 pm",
+                "close": "05.00 pm"
+            },
+            "Dinner": {
+                "open": "06.30 pm",
+                "last_entry": "11.00 pm",
+                "close": "11.55 pm"
+            }
+        }
+    }
+}
