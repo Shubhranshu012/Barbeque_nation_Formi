@@ -1,0 +1,512 @@
+{
+  "agent_id": "",
+  "channel": "voice",
+  "last_modification_timestamp": 1747548581939,
+  "agent_name": "Conversation Flow Agent",
+  "response_engine": {
+    "type": "conversation-flow",
+    "version": 1,
+    "conversation_flow_id": "conversation_flow_23fc37c6f45f"
+  },
+  "language": "en-US",
+  "opt_out_sensitive_data_storage": false,
+  "opt_in_signed_url": false,
+  "version": 1,
+  "is_published": false,
+  "version_title": "Formi",
+  "post_call_analysis_model": "gpt-4o-mini",
+  "voice_id": "11labs-Cimo",
+  "max_call_duration_ms": 3600000,
+  "interruption_sensitivity": 0.9,
+  "voicemail_detection_timeout_ms": 30000,
+  "allow_user_dtmf": true,
+  "user_dtmf_options": {},
+  "retellLlmData": null,
+  "conversationFlow": {
+    "conversation_flow_id": "conversation_flow_23fc37c6f45f",
+    "version": 1,
+    "nodes": [
+      {
+        "name": "Conversation",
+        "edges": [
+          {
+            "destination_node_id": "node-1747542276103",
+            "id": "edge-1747541771554",
+            "transition_condition": {
+              "type": "prompt",
+              "prompt": "Bangalore"
+            }
+          },
+          {
+            "destination_node_id": "node-1747542280391",
+            "id": "edge-1747542262255",
+            "transition_condition": {
+              "type": "prompt",
+              "prompt": "Delhi"
+            }
+          }
+        ],
+        "id": "node-1747541771554",
+        "type": "conversation",
+        "display_position": {
+          "x": -562.003452301136,
+          "y": -146.46875848806832
+        },
+        "instruction": {
+          "type": "prompt",
+          "text": "Hello this Barbeque Chat Bot, Could You Tell Your City To get More Informaltion."
+        }
+      },
+      {
+        "name": "Conversation",
+        "edges": [
+          {
+            "destination_node_id": "node-1747543079095",
+            "id": "edge-1747542424231",
+            "transition_condition": {
+              "type": "prompt",
+              "prompt": "City Entered"
+            }
+          }
+        ],
+        "id": "node-1747542276103",
+        "type": "conversation",
+        "display_position": {
+          "x": -69.29425153130842,
+          "y": -459.28642772143525
+        },
+        "instruction": {
+          "type": "prompt",
+          "text": "Could Your Specify for Which Location You Would like to eat  From IndraNagar\n,Electronic City"
+        }
+      },
+      {
+        "name": "Conversation",
+        "edges": [
+          {
+            "destination_node_id": "node-1747543079095",
+            "id": "edge-1747544295311",
+            "transition_condition": {
+              "type": "prompt",
+              "prompt": "City entered"
+            }
+          }
+        ],
+        "id": "node-1747542280391",
+        "type": "conversation",
+        "display_position": {
+          "x": -69.47936465892622,
+          "y": -36.45860676546093
+        },
+        "instruction": {
+          "type": "prompt",
+          "text": "Could Your Specify For Which Location from Secter C ,Cannaught Place or Unity Mall"
+        }
+      },
+      {
+        "name": "Conversation",
+        "edges": [
+          {
+            "destination_node_id": "node-1747560867779",
+            "id": "edge-1747543079095",
+            "transition_condition": {
+              "type": "prompt",
+              "prompt": "Book a Table"
+            }
+          },
+          {
+            "destination_node_id": "node-1747544013832",
+            "id": "edge-1747543119356",
+            "transition_condition": {
+              "type": "prompt",
+              "prompt": "Modify A Booking"
+            }
+          },
+          {
+            "destination_node_id": "node-1747544511055",
+            "id": "edge-1747543155524",
+            "transition_condition": {
+              "type": "prompt",
+              "prompt": "Get Menu"
+            }
+          },
+          {
+            "destination_node_id": "node-1747544553841",
+            "id": "edge-1747543164156",
+            "transition_condition": {
+              "type": "prompt",
+              "prompt": "Get Time Info"
+            }
+          },
+          {
+            "id": "edge-1747543181692",
+            "transition_condition": {
+              "type": "prompt",
+              "prompt": "Other Info"
+            }
+          }
+        ],
+        "id": "node-1747543079095",
+        "type": "conversation",
+        "display_position": {
+          "x": 448.6825221342703,
+          "y": -171.83653837134247
+        },
+        "instruction": {
+          "type": "prompt",
+          "text": "Nice, Could You Tell What You Would Like to Do ,Book ,Modify Reservation , Get Menu, Get Timing info or etc"
+        }
+      },
+      {
+        "name": "Conversation",
+        "edges": [
+          {
+            "destination_node_id": "node-1747544110008",
+            "id": "edge-1747544074185",
+            "transition_condition": {
+              "type": "prompt",
+              "prompt": "Modify"
+            }
+          },
+          {
+            "destination_node_id": "node-1747559519160",
+            "id": "edge-1747559477536",
+            "transition_condition": {
+              "type": "prompt",
+              "prompt": "Delete"
+            }
+          }
+        ],
+        "id": "node-1747544013832",
+        "type": "conversation",
+        "display_position": {
+          "x": 901.7853167210673,
+          "y": -91.45134977903967
+        },
+        "instruction": {
+          "type": "prompt",
+          "text": "Do You want to Delete it to Modify it"
+        }
+      },
+      {
+        "name": "Conversation",
+        "edges": [
+          {
+            "id": "edge-1747544110008",
+            "transition_condition": {
+              "type": "prompt",
+              "prompt": "Modified Time and Date Given"
+            }
+          }
+        ],
+        "id": "node-1747544110008",
+        "type": "conversation",
+        "display_position": {
+          "x": 1402.5029571455798,
+          "y": -141.81030486702832
+        },
+        "instruction": {
+          "type": "prompt",
+          "text": "Could You Enter Your Name and Phone Number"
+        }
+      },
+      {
+        "name": "Conversation",
+        "edges": [
+          {
+            "destination_node_id": "node-1747544538514",
+            "id": "edge-1747544511055",
+            "transition_condition": {
+              "type": "prompt",
+              "prompt": "Thank You"
+            }
+          }
+        ],
+        "id": "node-1747544511055",
+        "type": "conversation",
+        "display_position": {
+          "x": 896.0661619624893,
+          "y": 414.1484011522256
+        },
+        "instruction": {
+          "type": "prompt",
+          "text": "Giving Timing Information About Menu"
+        }
+      },
+      {
+        "name": "End Call",
+        "id": "node-1747544538514",
+        "type": "end",
+        "display_position": {
+          "x": 1279.2878598875927,
+          "y": 627.6048984182823
+        },
+        "instruction": {
+          "type": "prompt",
+          "text": "Politely end the call"
+        }
+      },
+      {
+        "name": "Conversation",
+        "edges": [
+          {
+            "destination_node_id": "node-1747544538514",
+            "id": "edge-1747544553841",
+            "transition_condition": {
+              "type": "prompt",
+              "prompt": "Thank You "
+            }
+          }
+        ],
+        "id": "node-1747544553841",
+        "type": "conversation",
+        "display_position": {
+          "x": 887.1918166986436,
+          "y": 738.5931945038432
+        },
+        "instruction": {
+          "type": "prompt",
+          "text": "Giving Timing Information About Timing"
+        }
+      },
+      {
+        "instruction": {
+          "type": "prompt",
+          "text": "Connecting to Human "
+        },
+        "name": "Conversation",
+        "edges": [
+          {
+            "destination_node_id": "node-1747559174938",
+            "id": "edge-1747559136242",
+            "transition_condition": {
+              "type": "prompt",
+              "prompt": "User Request For Human"
+            }
+          }
+        ],
+        "global_node_setting": {
+          "condition": "Describe the condition to jump to this node"
+        },
+        "id": "node-1747559136242",
+        "type": "conversation",
+        "display_position": {
+          "x": -561.4285714285714,
+          "y": 304.28571428571433
+        }
+      },
+      {
+        "transfer_destination": {
+          "type": "predefined",
+          "number": "+12134447777"
+        },
+        "edge": {
+          "destination_node_id": "node-1747562026301",
+          "id": "edge-1747559174938",
+          "transition_condition": {
+            "type": "prompt",
+            "prompt": "Transfer failed"
+          }
+        },
+        "instruction": {
+          "type": "prompt",
+          "text": "Transferring your call now."
+        },
+        "name": "Transfer Call",
+        "id": "node-1747559174938",
+        "transfer_option": {
+          "type": "cold_transfer",
+          "show_transferee_as_caller": false
+        },
+        "type": "transfer_call",
+        "display_position": {
+          "x": -195.22407738798353,
+          "y": 406.1624404902528
+        }
+      },
+      {
+        "name": "Conversation",
+        "edges": [
+          {
+            "id": "edge-1747559519160",
+            "transition_condition": {
+              "type": "prompt",
+              "prompt": "Describe the transition condition"
+            }
+          }
+        ],
+        "id": "node-1747559519160",
+        "type": "conversation",
+        "display_position": {
+          "x": 1397.5179855181866,
+          "y": 171.62835956793026
+        },
+        "instruction": {
+          "type": "prompt",
+          "text": "Could You Enter You name and Phone Number"
+        }
+      },
+      {
+        "name": "Conversation",
+        "edges": [
+          {
+            "destination_node_id": "node-1747562223428",
+            "id": "edge-1747560867779",
+            "transition_condition": {
+              "type": "prompt",
+              "prompt": "Phone num , Date and time and number of person all must be given"
+            }
+          }
+        ],
+        "id": "node-1747560867779",
+        "type": "conversation",
+        "display_position": {
+          "x": 745.7142857142858,
+          "y": -485.7142857142857
+        },
+        "instruction": {
+          "type": "prompt",
+          "text": "Ask for Phone num,date,Time and person"
+        }
+      },
+      {
+        "name": "Conversation",
+        "edges": [
+          {
+            "destination_node_id": "node-1747561017355",
+            "id": "edge-1747560987515",
+            "transition_condition": {
+              "type": "prompt",
+              "prompt": "Done or thank you"
+            }
+          }
+        ],
+        "id": "node-1747560987515",
+        "type": "conversation",
+        "display_position": {
+          "x": 2336.214342854068,
+          "y": -561.0234737195437
+        },
+        "instruction": {
+          "type": "prompt",
+          "text": "Booking Confirmed"
+        }
+      },
+      {
+        "name": "End Call",
+        "id": "node-1747561017355",
+        "type": "end",
+        "display_position": {
+          "x": 2714.756558923921,
+          "y": -413.0749800010762
+        },
+        "instruction": {
+          "type": "prompt",
+          "text": "Politely end the call"
+        }
+      },
+      {
+        "name": "End Call",
+        "id": "node-1747562026301",
+        "type": "end",
+        "display_position": {
+          "x": 206.42857142857144,
+          "y": 702.1428571428572
+        },
+        "instruction": {
+          "type": "prompt",
+          "text": "Politely end the call"
+        }
+      },
+      {
+        "tool_id": "tool-1747560833802",
+        "name": "Booking",
+        "edges": [
+          {
+            "destination_node_id": "node-1747560987515",
+            "id": "edge-1747562232944",
+            "transition_condition": {
+              "type": "prompt",
+              "prompt": "Succes"
+            }
+          }
+        ],
+        "id": "node-1747562223428",
+        "type": "function",
+        "tool_type": "local",
+        "speak_during_execution": false,
+        "display_position": {
+          "x": 1980.714285714286,
+          "y": -494.9999999999999
+        },
+        "wait_for_result": true
+      }
+    ],
+    "start_node_id": "node-1747541771554",
+    "start_speaker": "agent",
+    "tools": [
+      {
+        "name": "Booking",
+        "description": "When users ask to book an appointment, book it on the calendar.",
+        "tool_id": "tool-1747543398674",
+        "event_type_id": 0,
+        "cal_api_key": "",
+        "type": "book_appointment_cal"
+      },
+      {
+        "name": "Booking",
+        "description": "User will send Phone number , Date , Time ",
+        "tool_id": "tool-1747560833802",
+        "type": "custom",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "Booking": {
+              "description": "Send the phone number, number of persons, date and time",
+              "type": "object",
+              "properties": {
+                "People": {
+                  "type": "integer",
+                  "description": "Send number of persons"
+                },
+                "Time": {
+                  "type": "string",
+                  "description": "Send the time"
+                },
+                "Phone": {
+                  "type": "string",
+                  "description": "Send phone number"
+                },
+                "Date": {
+                  "type": "string",
+                  "description": "Send according to syterm if said today sent todays date"
+                }
+              },
+              "required": [
+                "Phone",
+                "Date",
+                "Time",
+                "People"
+              ]
+            }
+          },
+          "required": [
+            "Booking"
+          ]
+        },
+        "url": "https://hook.us2.make.com/lye4lu0442oj502l7ykkruk5jbavf3pc"
+      }
+    ],
+    "model_choice": {
+      "type": "cascading",
+      "model": "gemini-2.0-flash-lite"
+    },
+    "knowledge_base_ids": [],
+    "begin_tag_display_position": {
+      "x": -770.9106215006658,
+      "y": -139.28659345568303
+    },
+    "is_published": false
+  },
+  "llmURL": null
+}
