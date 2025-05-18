@@ -1,10 +1,11 @@
 import requests
+from retell inport Retail
 
 # 🔐 Replace with your actual API key and agent ID
-RETELL_API_KEY = "key_b87d6312e337d548079109be4025"
-AGENT_ID = "agent_ef85a5fa4a82dcd189db346248"
+RETELL_API_KEY = ""
+AGENT_ID = ""
 
-BASE_URL = "https://api.retellai.com/agent/agent_ef85a5fa4a82dcd189db346248/playground-completion?version=1"
+BASE_URL = ""
 
 headers = {
     "Authorization": f"Bearer {RETELL_API_KEY}",

@@ -5,7 +5,7 @@ from docx import Document
 import google.generativeai as genai
 
 # Initialize the Gemini client
-genai.configure(api_key="AIzaSyD6fIAuoFd5TvbT1gBAse2Lx--Lg54Xvvc")
+genai.configure(api_key="")
 
 # Folder containing .docx files
 docs_folder = 'docs'
@@ -36,7 +36,7 @@ def sanitize_filename(name):
 # 💾 Save JSON to file in Parsed folder
 def save_json_to_file(json_data, original_filename):
     # Use the original filename but with .json extension
-    base_name = os.path.splitext(original_filename)[0]  # Removes .docx
+    base_name = os.path.splitext(original_filename)[0]  
     file_name = f"{sanitize_filename(base_name)}.json"
     file_path = os.path.join(parsed_folder, file_name)
 
@@ -44,7 +44,6 @@ def save_json_to_file(json_data, original_filename):
         json.dump(json_data, f, indent=4)
     print(f"✅ Saved JSON to: {file_path}")
 
-# Extracts text from paragraphs and tables in a DOCX file
 def parse_docx(file_path):
     doc = Document(file_path)
     full_text = []
